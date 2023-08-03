@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "jest": "^29.6.1"
+  },
+  "name": "my-project",
+  "jest": {
+    "verbose": true
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
