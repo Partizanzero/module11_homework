@@ -5,8 +5,6 @@
  * 3. Значение не введено (пусто)
  * 4. Введено число от 1 до 12 и получен месяц
  */
-
-const { describe, it, expect } = require("@jest/globals");
 import { getMonthByNum } from "../../utils/getMonthByNum.js";
 discribe("test for getMonthByName function", () => {
   it("input NaN", () => {
