@@ -1,12 +1,29 @@
 {
-  "dependencies": {
-    "jest": "^29.6.1"
-  },
-  "name": "my-project",
-  "jest": {
-    "verbose": true
-  },
+  "name": "learn-js",
+  "version": "1.0.0",
+  "description": "js examples for fast learning",
+  "main": "src/utils/index.js",
   "scripts": {
     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Partizanzero/module11_homework.git"
+  },
+  "author": "lena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Partizanzero/module11_homework.git/issues"
+  },
+  "homepage": "https://github.com/Partizanzero/module11_homework.git/#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^29.6.2",
+    "jest": "^25.5.4",
+    "supertest": "^6.3.3"
   }
 }
