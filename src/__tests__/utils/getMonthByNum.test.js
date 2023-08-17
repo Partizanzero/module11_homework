@@ -6,7 +6,7 @@
  * 4. Введено число от 1 до 12 и получен месяц
  */
 import { getMonthByNum } from "../../utils/getMonthByNum.js";
-discribe("test for getMonthByName function", () => {
+describe("test for getMonthByName function", () => {
   it("input NaN", () => {
     expect(getMonthByNum("string")).toBe("неизвестно");
   }),
